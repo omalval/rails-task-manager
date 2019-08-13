@@ -1,0 +1,12 @@
+<!-- <form action="/tasks" method="post">
+  <%#= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <label for="title">Title: </title>
+  <input type="string" name="task[title]" id="title">
+
+  <label for="details">Details: </label>
+  <input type="text" name="task[details]" id="details">
+
+  <input type="submit">
+</form> -->
+<h1> New task </h1>
+<%= render 'form', task: @task %>
